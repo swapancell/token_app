@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'd-6@2z+33=ya@#v%6q-z2qkv*n@e-w
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = False
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tokenproviderapp.herokuapp.com']
 
 
 # Application definition
