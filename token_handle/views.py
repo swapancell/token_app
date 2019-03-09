@@ -1,6 +1,6 @@
 from django.shortcuts import render,HttpResponse
 import json
-import datetime
+from datetime import datetime
 from token_handle.models import *
 
 
